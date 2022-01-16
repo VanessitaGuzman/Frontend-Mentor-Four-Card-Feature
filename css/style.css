@@ -1,0 +1,185 @@
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  padding: 5%;
+  text-align: center;
+  font-family: Poppins;
+}
+
+h1 {
+  font-weight: 100;
+  color: hsl(234, 12%, 34%);
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+color: hsl(229, 6%, 66%);
+font-weight: 300;
+font-size: 14px;
+line-height: 180%;
+padding-bottom: 24px;
+}
+
+
+row {
+  width: 1200px;
+  padding: 15px;
+}
+
+.subheader {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+/* container css */
+
+.container {
+  align: center;
+  width: 900px;
+margin:auto;
+
+
+}
+
+.cards {
+text-align: center;
+
+
+
+}
+
+.card {
+  filter: drop-shadow(5px 5px 5px hsl(229, 6%, 66%));
+  width: 280px;
+  margin: 10px 15px;
+  padding: 15px;
+
+}
+
+.supervisor {
+  border-top: solid 5px hsl(180, 62%, 55%);
+  text-align: left;
+  position:relative;
+  margin-top: 75px;
+  margin-right: 125px;
+}
+
+.team {
+border-top: solid 5px red;
+text-align: left;
+position:relative;
+margin-top: -25px;
+
+
+}
+
+.karma {
+border-top: solid 5px hsl(34, 97%, 64%);
+text-align: left;
+position: relative;
+margin-top: 25px;
+}
+
+.calculator {
+border-top: solid 5px hsl(212, 86%, 64%);
+text-align: left;
+position: relative;
+margin-top: 75px;
+}
+
+/* icons */
+
+.icon {
+  width: 50px;
+  height: auto;
+  float: right;
+  display:block;
+}
+
+
+.footer {
+  padding-left: 50px;
+}
+
+
+
+/* mobile style */
+
+  @media (max-width: 990px) {
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 24px;
+}
+p {
+  font-size: 13px;
+}
+body {
+  padding: 15px;
+}
+
+.subheader {
+  padding-bottom: 0;
+    width: 360px;
+    text-align: center;
+    position: relative;
+}
+
+.supervisor {
+  margin-top:170px;
+  position: static;
+  padding: 5px;
+}
+
+.karma {
+
+  position: static;
+    padding: 5px;
+
+}
+
+.calculator{
+  margin-top:10px;
+  position: static;
+    padding: 5px;
+}
+
+.team {
+  margin-top:10px;
+  position: static;
+    padding: 5px;
+}
+
+.container {
+  margin-top: -170px;
+  margin-left: auto;
+  padding-left: 80px;
+}
+
+.attribution {
+  width: 500px;
+  text-align: left;
+}
+
+
+
+  }
